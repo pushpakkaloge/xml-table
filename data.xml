@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="styles.xsl" ?>
+
+
+<!DOCTYPE userdata[
+<!ELEMENT userdata(user+)>
+<!ELEMENT user(fname,lname,city)>
+<!ELEMENT fname(#PCDATA)>
+<!ELEMENT lname(#PCDATA)>
+<!ELEMENT city(#PCDATA)>
+]>
+
+<userdata>
+<user id="1" >
+    <fname>Pushpak</fname>
+    <lname>Kaloge</lname>
+    <city>pune</city>
+</user>
+
+<user id="2" >
+    <fname>Peter</fname>
+    <lname>Parker</lname>
+    <city>New York</city>
+</user>
+
+<user id="3">
+    <fname>Jon</fname>
+    <lname>Snow</lname>
+    <city>Winterfell</city>
+</user>
+
+
+</userdata>
